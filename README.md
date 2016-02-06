@@ -8,6 +8,8 @@ Here, the curviness is defined as the average quotient between road length and e
 how to
 ------
 
+    $ npm install
+    <install gnuplot, parallel, optipng, imagemagick>
     $ node index.js "path to planet.mbtiles" > world.txt
     $ gnuplot plot.gp
     $ cd tiles

@@ -1,4 +1,6 @@
 {
+  "name": "tortuosmity",
+  "licence": "ISC",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -6,5 +8,18 @@
   "dependencies": {
     "tile-reduce": "^3.0.0",
     "turf": "^2.0.2"
-  }
+  },
+  "description": "Visualization of road-curviness from OpenStreetMap data.",
+  "version": "0.1.0",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyrasd/tortuosmity.git"
+  },
+  "author": "Martin Raifer <tyr.asd@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/tyrasd/tortuosmity/issues"
+  },
+  "homepage": "https://github.com/tyrasd/tortuosmity#readme",
+  "license": "ISC"
 }
