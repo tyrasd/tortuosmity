@@ -4,7 +4,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "sphericalmercator": "^1.0.4",
     "tile-reduce": "^3.0.0",
     "turf": "^2.0.2"
   }
