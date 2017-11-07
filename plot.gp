@@ -17,5 +17,5 @@ set yrange [0:4096]
 set cbrange [1:2]
 set terminal png size 4096,4096 transparent truecolor
 set output "world.png"
-plot "world.txt" using 1:2:($3) with dots palette
+plot "world.txt" using 1:(4096-$2):($3) with dots palette
 
