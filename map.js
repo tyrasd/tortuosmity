@@ -1,6 +1,8 @@
 var turf = require('turf')
 
 var roadTypes = [
+        'motorway',
+        'trunk',
         'primary',
         'secondary',
         'tertiary',
